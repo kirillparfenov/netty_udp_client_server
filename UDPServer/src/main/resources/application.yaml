@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: UDP
+netty:
+  server:
+    port: 7171
+    worker-thread-name: worker-netty-thread
+    worker-threads: 8
